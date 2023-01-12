@@ -7,6 +7,7 @@ import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import coding from "../public/coding.jpg";
 import mountains from "../public/mountains.jpg"
+import headshot1 from "../public/headshot-1.jpg"
 import chip from "../public/chip.jpg"
 import chairs from "../public/chairs.jpg"
 import steamdeck from "../public/steamdeck.jpg"
@@ -88,7 +89,7 @@ export default function Home() {
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>A selection of some of our products.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtube.com', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 1' src={mountains}/></div>
+              <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://josh-bomba.vercel.app/', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 1' src={headshot1}/></div>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtube.com', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 2' src={chip}/></div>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtube.com', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={chairs}/></div>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtube.com', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={steamdeck}/></div>

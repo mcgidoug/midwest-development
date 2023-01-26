@@ -13,6 +13,7 @@ import chairs from "../public/chairs.jpg"
 import phone from "../public/phone.jpg"
 import drum from "../public/drum-machine.jpg"
 import steamdeck from "../public/steamdeck.jpg"
+import invader from "../public/invader.jpg"
 import {useState} from "react";
 
 export default function Home() {
@@ -93,7 +94,7 @@ export default function Home() {
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://josh-bomba.vercel.app/', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 1' src={headshot1}/></div>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtu.be/l0uvNZiE43U', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 2' src={mountains}/></div>
-              <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://youtube.com', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={phone}/></div>
+              <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://martinkralovec.netlify.app/', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={invader}/></div>
               <div className='basis-1/3 flex-1 image-container' onClick={()=> window.open('https://mcgidoug.github.io/drum-machine/', "_blank" )}><Image width={parseFloat('400%')} height={parseFloat('400%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={drum}/></div>
             </div>
           </section>

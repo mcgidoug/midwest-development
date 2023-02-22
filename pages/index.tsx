@@ -74,7 +74,7 @@ export default function Home() {
                 <h4 className='py-4 text-teal-600'>CMS tools we use</h4>
                 <p className='text-gray-800 dark:text-white py-1'>Wordpress</p>
                 <p className='text-gray-800 dark:text-white py-1'>Drupal</p>
-                <p className='text-gray-800 dark:text-white py-1'>Joomla</p>
+                <p className='text-gray-800 dark:text-white py-1'>Sanity</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 lg:mx-auto">
                 <Image alt='thumbs up symbol' className='mx-auto' src={consulting} width={100} height={100}/>

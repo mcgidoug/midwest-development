@@ -1,21 +1,18 @@
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube,} from "react-icons/ai"
+import {useState} from "react";
 import Image from "next/image";
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import coding from "../public/coding.jpg";
-import mountains from "../public/mountains.jpg"
-import headshot1 from "../public/headshot-1.jpg"
-import chip from "../public/chip.jpg"
-import chairs from "../public/chairs.jpg"
-import phone from "../public/phone.jpg"
-import drum from "../public/drum-machine.jpg"
-import steamdeck from "../public/steamdeck.jpg"
-import invader from "../public/invader.jpg"
-import ikolumen from "../public/ikolumen.png"
-import {useState} from "react";
+import weather from "../public/weather.png"
+import bomba from "../public/bomba.png"
+import martin from "../public/martin.png"
+import iko from "../public/iko.png"
+import chloe from "../public/chloe-landing.png"
+import colors from "../public/colors.png"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -93,10 +90,12 @@ export default function Home() {
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-white'>A selection of some of our products.</p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://josh-bomba.vercel.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 1' src={headshot1}/></div>
-              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://youtu.be/l0uvNZiE43U', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 2' src={mountains}/></div>
-              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://martinkralovec.netlify.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={invader}/></div>
-              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://ikoseveta.com/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={ikolumen}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://josh-bomba.vercel.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 1' src={bomba}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://youtu.be/l0uvNZiE43U', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 2' src={weather}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://martinkralovec.netlify.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 3' src={martin}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://ikoseveta.com/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={iko}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://fascinating-jalebi-848979.netlify.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={chloe}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://mcgidoug.github.io/palette-creator/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={colors}/></div>
             </div>
           </section>
         </main>

@@ -13,6 +13,7 @@ import martin from "../public/martin.png"
 import iko from "../public/iko.png"
 import chloe from "../public/chloe-landing.png"
 import colors from "../public/colors.png"
+import cerc from "../public/cerc.png"
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -96,6 +97,7 @@ export default function Home() {
               <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://ikoseveta.com/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={iko}/></div>
               <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://fascinating-jalebi-848979.netlify.app/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={chloe}/></div>
               <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://mcgidoug.github.io/palette-creator/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={colors}/></div>
+              <div className='basis-1/5 flex-1 image-container' onClick={()=> window.open('https://mcgidoug.github.io/il-common-core-cerc-creator/', "_blank" )}><Image width={parseFloat('100%')} height={parseFloat('100%')} layout="responsive" className='rounded-lg object-cover' alt='portfolio image 4' src={cerc}/></div>
             </div>
           </section>
         </main>
